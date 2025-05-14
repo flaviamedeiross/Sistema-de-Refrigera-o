@@ -4,8 +4,7 @@
 - O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial a partir da temperatura para a gestao do consumo de energia.
 
 ## Comandos Para Rodar o Projeto:
-Instale o Arduino IDE
-'''
+Instale o Arduino IDE  
 Instale as bibliotecas necessarios para a utilizacao do codigo:
 ```sh
 OneWire.h
