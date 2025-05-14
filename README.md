@@ -5,7 +5,7 @@
 
 ## Comandos Para Rodar o Projeto:
 Instale o Arduino IDE
-\n
+'''
 Instale as bibliotecas necessarios para a utilizacao do codigo:
 ```sh
 OneWire.h
