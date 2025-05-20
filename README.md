@@ -1,12 +1,13 @@
 # Sistema-de-Refrigeracao
 
 ### Descrição do Projeto
-- O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial, a partir da temperatura, para a gestão do consumo de energia. Foi feito o uso de sensores para coletar as informações e essas foram exibidas em um dashboard na plataforma ThingSpeak.
+- O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial, a partir da temperatura, para a gestão do consumo de energia.
 - No desenvolvimento do sistema elétrico do protótipo foram utilizados os seguintes materiais:
 * Placa Arduino Uno WiFi ATMEGA328P + ESP8266;
 * Sensor de Temperatura;
 * Sensor de Corrente,
 * Ventilador DC 12V.
+- Para coletar as informações e exibi-las, criou-se um dashboard na plataforma ThingSpeak.
 
 ## Para Instalar o ESP8266 no Arduino IDE:
 Instale o Arduino IDE  
@@ -50,9 +51,10 @@ Abra o Serial Monitor para verificar se o WiFi foi conectado com sucesso:
 ```sh
 Ctrl + Shift + M
 ```
-Observação: Lembre-se de colocar o nome e a senha do seu WiFi e a API do seu canal do ThingSpeak 
-Em seguida, para carregar o código do Arduino Uno:  
-Desative os DIP switches 5 e 6 e ative os DIP switches 3 e 4  
+Observação: Lembre-se de colocar o nome e a senha do seu WiFi e a API do seu canal do ThingSpeak  
+  
+Em seguida, para carregar o código do Arduino Uno:    
+Desative os DIP switches 5 e 6 e ative os DIP switches 3 e 4    
 Entre em Tools > Board e selecione:  
 ```sh
 Arduino Uno
@@ -63,7 +65,7 @@ COM 3
 ```
 Observação: Lembre-se de alterar a porta e ativar os DIP switches corretos
 ```sh
-Clique em Verify para verificar o código e em seguida em Upload para carregá-lo;
+Clique em Verify para verificar o código e em seguida em Upload para carregá-lo
 ```
 Para monitorar os dados, crie um canal na plataforma ThingSpeak:  
 ```sh
