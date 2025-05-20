@@ -1,14 +1,14 @@
 # Sistema-de-Refrigeracao
 
 ### Descrição do Projeto
-- O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial a partir da temperatura para a gestao do consumo de energia.
+- O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial a partir da temperatura para a gestao do consumo de energia. Foi feito o uso de sensores para coletar as informacoes e essas foram exibidas em um dashboard na plataforma ThingSpeak.
 - No desenvolvimento do prototipo foram utilizados os seguintes materiais:
-- Placa Arduino Uno ATMEGA328 + ESP8266;
-- Sensor de Temperatura;
-- Sensor de Corrente,
-- Ventilador DC 12V.
+* Placa Arduino Uno ATMEGA328 + ESP8266;
+* Sensor de Temperatura;
+* Sensor de Corrente,
+* Ventilador DC 12V.
 
-## Para instalar o ESP8266 no Arduino iDE:
+## Para Instalar o ESP8266 no Arduino IDE:
 Instale o Arduino IDE  
 Instale as bibliotecas necessarios para a utilizacao do codigo:
 ```sh
@@ -28,8 +28,8 @@ instale:
 esp8266 by ESP8266 Community
 ```
 ## Comandos Para Rodar o Projeto:
-Para rodar esse projeto e necessario carregar o codigo do ESP8266 e do Arduino Uno, separadamente.
-Primeiro, para carregar no ESP8266:
+Para rodar esse projeto e necessario carregar o codigo do ESP8266 e do Arduino Uno, separadamente.  
+Primeiro, para carregar no ESP8266:  
 Entre em Tools > Board e selecione:
 ```sh
 Generic ESP8266 Module
@@ -50,9 +50,9 @@ Abra o Serial Monitor para verificar se o WiFi foi conectado com sucesso, para a
 ```sh
 Ctrl + Shift + M
 ```
-Em seguida, para carregar no Arduino Uno:
-Desative os pinos 5 e 6 e ative os pinos 3 e 4
-Entre em Tools > Board e selecione:
+Em seguida, para carregar no Arduino Uno:  
+Desative os pinos 5 e 6 e ative os pinos 3 e 4  
+Entre em Tools > Board e selecione:  
 ```sh
 Arduino Uno
 ```
@@ -64,8 +64,16 @@ Observacao: Lembre-se de alterar a porta e ativar os pinos corretos
 ```sh
 Clique em Verify para verificar o codigo e em seguida em Upload para carrega-lo;
 ```
-Por fim, para conectar os dois:
-Desative os pinos 3 e 4 e ative os pinos 1 e 2
+Para monitorar os dados, crie um canal na plataforma ThingSpeak:  
+```sh
+1 - Crie uma conta no ThingSpeak;
+2 - Clique no em Novo Canal;
+3 - Coloque o nome a descricao do projeto;
+4 - Adicione 4 campos: temperatura, corrente, potencia e energia,
+5 - Salve o Canal. 
+```
+Por fim, para conectar o Arduino e o ESP8266:  
+Desative os pinos 3 e 4 e ative os pinos 1 e 2  
 Abra seu canal no ThingSpeak e observe os dados enviados pelos graficos
 
 ### Pessoas Desenvolvedoras: 
