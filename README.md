@@ -2,11 +2,13 @@
 
 ### Descrição do Projeto
 - O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial, a partir da temperatura, para a gestão do consumo de energia.
+  
 - No desenvolvimento do sistema elétrico do protótipo foram utilizados os seguintes materiais:
-* Placa Arduino Uno WiFi ATMEGA328P + ESP8266;
-* Sensor de Temperatura;
-* Sensor de Corrente,
-* Ventilador DC 12V.
+- Placa Arduino Uno WiFi ATMEGA328P + ESP8266;
+- Sensor de Temperatura;
+- Sensor de Corrente,
+- Ventilador DC 12V.
+  
 - Para coletar as informações e exibi-las, criou-se um dashboard na plataforma ThingSpeak.
 
 ## Para Instalar o ESP8266 no Arduino IDE:
