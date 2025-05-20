@@ -1,6 +1,6 @@
 # Sistema-de-Refrigeracao
 
-### Descrição do Projeto
+## Descrição do Projeto
 - O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial, a partir da temperatura, para a gestão do consumo de energia.
   
 * No desenvolvimento do sistema elétrico do protótipo foram utilizados os seguintes materiais:
@@ -81,7 +81,7 @@ Por fim, para conectar o Arduino com o ESP8266:
 Desative os DIP switches 3 e 4 e ative os DIP switches 1 e 2  
 Abra seu canal no ThingSpeak e observe os dados enviados para os gráficos
 
-### Pessoas Desenvolvedoras: 
+## Pessoas Desenvolvedoras: 
 - Daniela Akemi Hayashi
 - Flávia Cristina Medeiros
 - Giovana Salazar Alarcon
