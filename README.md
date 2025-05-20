@@ -1,7 +1,7 @@
 # Sistema-de-Refrigeracao
 
 ### Descrição do Projeto
-- O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial a partir da temperatura para a gestão do consumo de energia. Foi feito o uso de sensores para coletar as informações e essas foram exibidas em um dashboard na plataforma ThingSpeak.
+- O projeto consiste no desenvolvimento de um sistema que controla a velocidade dos ventiladores de torres de resfriamento industrial, a partir da temperatura, para a gestão do consumo de energia. Foi feito o uso de sensores para coletar as informações e essas foram exibidas em um dashboard na plataforma ThingSpeak.
 - No desenvolvimento do sistema elétrico do protótipo foram utilizados os seguintes materiais:
 * Placa Arduino Uno WiFi ATMEGA328P + ESP8266;
 * Sensor de Temperatura;
