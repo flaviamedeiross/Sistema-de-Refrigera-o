@@ -8,7 +8,7 @@
 * Sensor de Temperatura DS18B20;
 * Sensor de Corrente ACS712;
 * Ventilador DC 12V,
-* Protoboard
+* Protoboard.
   
 - Para coletar as informações e exibi-las, criou-se um dashboard na plataforma ThingSpeak.
 
