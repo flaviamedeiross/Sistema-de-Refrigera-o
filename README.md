@@ -53,7 +53,8 @@ Abra o Serial Monitor para verificar se o WiFi foi conectado com sucesso:
 ```sh
 Ctrl + Shift + M
 ```
-Observação: Lembre-se de colocar o nome e a senha do seu WiFi, além da API do seu canal do ThingSpeak, no código 
+Observação: Lembre-se de colocar o nome e a senha do seu WiFi, além da API do seu canal do ThingSpeak, no código
+Importante: o WiFi deve ter 2,4GHz
   
 Em seguida, para carregar o código do Arduino Uno:    
 Desative os DIP switches 5 e 6 e ative os DIP switches 3 e 4    
