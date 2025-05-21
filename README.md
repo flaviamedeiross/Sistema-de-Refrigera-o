@@ -5,8 +5,8 @@
   
 * No desenvolvimento do sistema elétrico do protótipo foram utilizados os seguintes materiais:
 * Placa Arduino Uno WiFi ATMEGA328P + ESP8266;
-* Sensor de Temperatura;
-* Sensor de Corrente,
+* Sensor de Temperatura DS18B20;
+* Sensor de Corrente ACS712,
 * Ventilador DC 12V.
   
 - Para coletar as informações e exibi-las, criou-se um dashboard na plataforma ThingSpeak.
@@ -53,7 +53,7 @@ Abra o Serial Monitor para verificar se o WiFi foi conectado com sucesso:
 ```sh
 Ctrl + Shift + M
 ```
-Observação: Lembre-se de colocar o nome e a senha do seu WiFi, além da API do seu canal do ThingSpeak, no código
+Observação: Lembre-se de colocar o nome e a senha do seu WiFi, além da API do seu canal do ThingSpeak, no código  
 Importante: o WiFi deve ter 2,4GHz
   
 Em seguida, para carregar o código do Arduino Uno:    
