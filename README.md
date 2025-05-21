@@ -6,8 +6,9 @@
 * No desenvolvimento do sistema elétrico do protótipo foram utilizados os seguintes materiais:
 * Placa Arduino Uno WiFi ATMEGA328P + ESP8266;
 * Sensor de Temperatura DS18B20;
-* Sensor de Corrente ACS712,
-* Ventilador DC 12V.
+* Sensor de Corrente ACS712;
+* Ventilador DC 12V,
+* Protoboard
   
 - Para coletar as informações e exibi-las, criou-se um dashboard na plataforma ThingSpeak.
 
