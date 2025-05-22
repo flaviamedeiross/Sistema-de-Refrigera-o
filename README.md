@@ -83,10 +83,8 @@ Por fim, para conectar o Arduino com o ESP8266:
 Desative os DIP switches 3 e 4 e ative os DIP switches 1 e 2  
 Abra seu canal no ThingSpeak e observe os dados enviados para os gráficos
 
-### Tecnologias Utilizadas:
-
-![ESP8266](https://upload.wikimedia.org/wikipedia/commons/3/3e/ESP8266_Module.jpg)
-![Wi-Fi](https://upload.wikimedia.org/wikipedia/commons/3/3b/WiFi_Logo.svg)
+## Tecnologias Utilizadas:
+[![My Skills](https://skillicons.dev/icons?i=arduino)](https://skillicons.dev)
 
 ## Pessoas Desenvolvedoras: 
 - Daniela Akemi Hayashi
