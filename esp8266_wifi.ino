@@ -3,7 +3,7 @@
 const char* ssid = "";       // Coloque o nome do seu WiFi
 const char* password = "";   // Colque a senha do seu WiFi
 const char* server = "api.thingspeak.com";
-const String apiKey = "DWS5PGO0SW46EOKY";   // Coloque a api do seu canal do ThingSpeak
+const String apiKey = "";   // Coloque a api do seu canal do ThingSpeak
 
 WiFiClient client;
 
