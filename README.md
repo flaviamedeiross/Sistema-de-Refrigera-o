@@ -85,7 +85,7 @@ Abra seu canal no ThingSpeak e observe os dados enviados para os gráficos
 
 ## Tecnologias Utilizadas:
 [![My Skills](https://skillicons.dev/icons?i=arduino)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=C++)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=cpp)](https://skillicons.dev)
 
 ## Pessoas Desenvolvedoras: 
 - Daniela Akemi Hayashi
